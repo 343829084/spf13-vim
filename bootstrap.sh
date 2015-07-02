@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 
 #   Copyright 2014 Steve Francia
+#   Copyright 2014 FreeWheel.tv
 #
 #   Licensed under the Apache License, Version 2.0 (the "License");
 #   you may not use this file except in compliance with the License.
@@ -15,8 +16,8 @@
 #   limitations under the License.
 
 ############################  SETUP PARAMETERS
-app_name='spf13-vim'
-[ -z "$APP_PATH" ] && APP_PATH="$HOME/.spf13-vim-3"
+app_name='freewheel-vim'
+[ -z "$APP_PATH" ] && APP_PATH="$HOME/.freewheel-vim"
 [ -z "$REPO_URI" ] && REPO_URI='https://github.com/spf13/spf13-vim.git'
 [ -z "$REPO_BRANCH" ] && REPO_BRANCH='3.0'
 debug_mode='0'
